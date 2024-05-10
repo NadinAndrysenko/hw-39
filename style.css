@@ -130,6 +130,14 @@ color: #fff;
 text-decoration: none;
   }
 
+  .how-shell {
+    display: flex;
+  }
+
+  .how-wrapping {
+    display: flex;
+  }
+
   .how-title {
     font-family: var(--second-family);
 font-weight: 600;
@@ -157,6 +165,7 @@ font-size: 40px;
 line-height: 142%;
 letter-spacing: 0.01em;
 color: #252b42;
+max-width: 561px;
   }
 
   .how-step-two {
@@ -170,7 +179,8 @@ width: 467px;
   }
 
   .how-box {
-    margin-left: 711px;
+    margin-left: 287px;
+    margin-top: 183px;
   }
 
   .how-image {
@@ -185,7 +195,7 @@ width: 467px;
     line-height: 142%;
     letter-spacing: 0.01em;
     color: #252b42;
-    width: 480px;
+    max-width: 480px;
   }
 
   .how-enjoy {
@@ -198,6 +208,11 @@ width: 467px;
     width: 462px;
   }
 
+  .how-wrapper {
+    margin-left: -1054px;
+    margin-top: 183px;
+  }
+
   .menu-title {
     text-align: center;
     font-family: var(--second-family);
@@ -207,6 +222,17 @@ line-height: 138%;
 letter-spacing: 0em;
 color: #fa4a0c;
 padding-top: 58px;
+  }
+
+  .menu-direction {
+    padding-top: 30px;
+    padding-left: 440px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 158%;
+    letter-spacing: 0.01em;
+    color: #737373;
   }
 
   .menu-beverages {
@@ -299,13 +325,17 @@ padding: 18px 31px;
 width: 142px;
 height: 64px;
 background-color: #fa4a0c;
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 16px;
-line-height: 175%;
-letter-spacing: 0.01em;
-color: #fff;
 margin-left: 554px;
+  }
+
+  .order-store {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-decoration: none;
   }
 
   .order-playstore:hover {
@@ -321,13 +351,17 @@ border-radius: 10px;
 padding: 16px 45px;
 width: 173px;
 height: 60px;
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 16px;
-line-height: 175%;
-letter-spacing: 0.01em;
-color: #fff;
 margin-left: 16px;
+  }
+
+  .order-app {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-decoration: none;
   }
 
   .footer-copywright {
